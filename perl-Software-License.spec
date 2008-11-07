@@ -1,6 +1,6 @@
 %define module   Software-License
-%define version    0.004
-%define release    %mkrel 2
+%define version    0.008
+%define release    %mkrel 1
 
 Name:       perl-%{module}
 Version:    %{version}
@@ -14,7 +14,7 @@ BuildRequires: perl(Class::ISA)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Sub::Install)
 BuildRequires: perl(Text::Template)
-BuildArch: noarch
+BuildRequires: perl(Data::Section)
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
