@@ -1,5 +1,5 @@
 %define module   Software-License
-%define version    0.008
+%define version    0.010
 %define release    %mkrel 1
 
 Name:       perl-%{module}
@@ -9,7 +9,7 @@ License:    GPL or Artistic
 Group:      Development/Perl
 Summary:    Packages that provide templated software licenses
 Url:        http://search.cpan.org/dist/%{module}
-Source:     http://www.cpan.org/modules/by-module/Software/%{module}-%{version}.tar.gz
+Source:     http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/%{module}-%{version}.tar.gz
 BuildRequires: perl(Class::ISA)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Sub::Install)
