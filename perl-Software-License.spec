@@ -1,5 +1,5 @@
 %define module   Software-License
-%define version    0.010
+%define version    0.012
 %define release    %mkrel 1
 
 Name:       perl-%{module}
