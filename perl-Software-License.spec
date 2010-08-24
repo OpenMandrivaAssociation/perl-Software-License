@@ -1,5 +1,5 @@
 %define upstream_name    Software-License
-%define upstream_version 0.102250
+%define upstream_version 0.102340
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
