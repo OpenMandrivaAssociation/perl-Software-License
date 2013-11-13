@@ -13,6 +13,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Software-License-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires: perl(Try::Tiny)
 BuildRequires:	perl(Class::ISA)
 BuildRequires:	perl(Data::Section)
 BuildRequires:	perl(ExtUtils::MakeMaker)
