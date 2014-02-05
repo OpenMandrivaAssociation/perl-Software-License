@@ -1,5 +1,5 @@
 %define upstream_name    Software-License
-%define upstream_version 0.103007
+%define upstream_version 0.103008
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -90,4 +90,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Apr 17 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.004-1mdv2009.0
 - first mdv release
+
 
