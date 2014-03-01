@@ -1,5 +1,4 @@
-%define upstream_name    Software-License
-%define upstream_version 0.103008
+%define upstream_name    Software-License%define upstream_version 0.103009
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -10,7 +9,7 @@ Summary:	Packages that provide templated software licenses
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Software-License-%{upstream_version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires: perl(Try::Tiny)
@@ -90,5 +89,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Apr 17 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.004-1mdv2009.0
 - first mdv release
+
 
 
